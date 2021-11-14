@@ -14,3 +14,4 @@ print(type(result))
 #df.to_csv('output1.csv')
 #print(output1.csv)
 #/Users/apple/AI ML Projects/invoice2data/Invoice/F1_invoice_1.pdf
+# invoice processing
