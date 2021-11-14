@@ -1,0 +1,20 @@
+'''nav = st.sidebar.radio("Navigation",['Home','Extract','Analytics'])
+if nav == 'Home':
+    st.write("We are processing invoices and extracting some fileds and storing in Database.Also we verify with source system")
+
+if nav == 'Extract':
+    #file = st.file_uploader("Pick a file")
+    #path = st.file_uploader("Input the file path")
+    #input_img = st.file_uploader("Please upload image file.....", type =['jpeg,jpg,png,PNG,JPG,JPEG'])
+    input_img = st.file_uploader("Please upload image file.....")
+    if input_img is not None:
+
+        image = Image.open(input_img)
+        st.image(input_img,caption='Input Invoice')
+    option = st.selectbox("Please select one",("Eng_To_Eng","Eng_To_Ara","Ara_To_Ara","Ara_To_Eng"))
+    if st.checkbox("Show Data"):
+        st.table(data)
+
+       
+if nav == 'Analytics':
+    st.write("Here we show main KPI's of this POC")'''
